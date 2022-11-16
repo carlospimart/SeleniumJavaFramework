@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CheckBoxes with mobiles]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CheckBoxes Android2(failed)">
+    <parameter name="deviceName" value="Pixel 5"/>
+    <classes>
+      <class name="com.herokuapp.theinternetLoginTest.Test_Pages_CheckBox">
+        <methods>
+          <include name="CkeckBoxTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternetLoginTest.Test_Pages_CheckBox -->
+    </classes>
+  </test> <!-- CheckBoxes Android2(failed) -->
+</suite> <!-- Failed suite [CheckBoxes with mobiles] -->

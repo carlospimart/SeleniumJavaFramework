@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.706 s <<< FAILURE! - in TestSuite
+loginTest(com.herokuapp.theinternet.PositiveTest)  Time elapsed: 9.92 s  <<< FAILURE!
+java.lang.AssertionError: 
+Actual message is not the same as expected expected [You logged out of the secure area!
+×] but found [You logged out of the secure area!
+Ã—]
+	at com.herokuapp.theinternet.PositiveTest.loginTest(PositiveTest.java:66)
+
+login_error_test(com.herokuapp.theinternet.NegativeTest)  Time elapsed: 8.259 s  <<< FAILURE!
+java.lang.AssertionError: 
+Actual message is not the same as expected expected [Your username is invalid!
+×] but found [Your username is invalid!
+Ã—]
+	at com.herokuapp.theinternet.NegativeTest.login_error_test(NegativeTest.java:65)
+

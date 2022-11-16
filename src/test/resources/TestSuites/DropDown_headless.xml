@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="DropDown with headless" verbose="1" >
+
+    <test name="dropdown">
+        <parameter name="browser" value="chromeHeadless"/>
+
+        <classes>
+            <class name="com.herokuapp.theinternetLoginTest.Test_Pages_Dropdown">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="dropdown 2">
+        <parameter name="browser" value="chromeHeadless"/>
+
+        <classes>
+            <class name="com.herokuapp.theinternetLoginTest.Test_Pages_Dropdown">
+
+            </class>
+        </classes>
+    </test>
+
+   </suite>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeTestSuite" verbose="1" >
+
+
+
+    <test name="NegativePasswordTest">
+
+        <classes>
+            <class name="com.herokuapp.theinternetLoginTest.NegativeLoginTest_With_DataProvider">
+                <methods>
+                    <include name="NegativeTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

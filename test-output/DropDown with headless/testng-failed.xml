@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DropDown with headless]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="dropdown 2(failed)">
+    <parameter name="browser" value="htmlunit"/>
+    <classes>
+      <class name="com.herokuapp.theinternetLoginTest.Test_Pages_Dropdown">
+        <methods>
+          <include name="dropdown"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternetLoginTest.Test_Pages_Dropdown -->
+    </classes>
+  </test> <!-- dropdown 2(failed) -->
+</suite> <!-- Failed suite [DropDown with headless] -->

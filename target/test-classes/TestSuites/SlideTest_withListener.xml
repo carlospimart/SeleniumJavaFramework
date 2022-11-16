@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeTestSuite" verbose="1" >
+
+    <listeners>
+        <listener class-name="com.herokuapp.base.TestListener"></listener>
+    </listeners>
+
+    <test name="SlideTest">
+
+        <classes>
+            <class name="com.herokuapp.theinternetLoginTest.Test_Page_Slide"/>
+        </classes>
+    </test>
+</suite>
